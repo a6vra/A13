@@ -127,6 +127,7 @@ main ul{
 
 main li{
 	padding-bottom: .35em;
+	list-style-type: circle;
 }
 
 a:focus {
@@ -188,11 +189,11 @@ article img{
 }
 
 #nav_menu li:hover ul{
+	margin-top: 50px;
 	display: block;
 }
 
 #nav_menu li::after ul {
-	white-space: normal;
 	clear: initial;
 	display: block;
 }
