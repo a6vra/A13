@@ -191,6 +191,11 @@ article img{
 	display: block;
 }
 
+#nav_menu li::after ul {
+	white-space: normal;
+	clear: initial;
+	display: block;
+}
 .current{
 	color: yellow;
 }
