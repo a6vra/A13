@@ -157,7 +157,31 @@ article img{
 	border: 1px solid black;
 }
 
+#nav_menu {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
 
+#nav_menu li{
+	float: left;
+}
+
+#nav_menu li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+.current{
+	color: yellow;
+}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - *\
 /* the styles for the footer */
 footer{
