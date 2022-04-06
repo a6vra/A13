@@ -161,10 +161,12 @@ article img{
 	list-style-type: none;
 	margin:0;
 	padding: 0;
+	position: relative;
 }
 
 #nav_menu li{
 	float: left;
+	list-style-type: none;
 }
 
 #nav_menu li a {
@@ -177,6 +179,16 @@ article img{
 	background-color: #800000;
 	color: white;
 	font-weight: bold;
+}
+
+#nav_menu li ul{
+	display: none;
+	top: 100%;
+	position: absolute;
+}
+
+#nav_menu li:hover ul{
+	display: block;
 }
 
 .current{
