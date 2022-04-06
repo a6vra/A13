@@ -198,6 +198,14 @@ article img{
 	display: block;
 }
 
+#nav_menu .current{
+	color: yellow;
+}
+
+:current(ul,li){
+	color: yellow;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - *\
 /* the styles for the footer */
 footer{

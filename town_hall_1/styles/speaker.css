@@ -162,9 +162,6 @@ a:hover{
 	list-style-type: none;
 }
 
-#nav_menu li .current{
-	color: yellow;
-}
 
 #nav_menu li a {
 	display: block;
